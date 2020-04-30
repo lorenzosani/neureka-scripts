@@ -204,7 +204,7 @@ def applySFTF(data):
   for i in range(len(data)):
     #Go through each segment in a channel
     for segment in data[i]:
-      f, t, Zxx = signal.stft(segment)
+      f, t, Zxx = signal.stft(segment, nperseg=100)
       sig_sftf[i].append(Zxx)
   return sig_sftf
 
@@ -215,7 +215,7 @@ def applySFTF(data):
 ################################################################################
 
 def readData(EDF_PATH, EDF_FILE, params, labels):
-  SEGMENT_LENGTH = 5
+  SEGMENT_LENGTH = 7
   SAMPLE_RATE = 100
 
   # Read, resample and segment data from .edf file
