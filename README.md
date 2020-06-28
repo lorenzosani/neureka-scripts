@@ -9,6 +9,6 @@ This repository consists of multiple Python scripts, which:
 
 - This work has been produced in collaboration with [@Sara](https://www.linkedin.com/in/sara-masarone) 👩
 
-- The code has initially been produced as part as an attempt to the global [Neureka Challenge](https://neureka-challenge.com/). 🧠
+- The code has initially been produced as part of an attempt to the global [Neureka Challenge](https://neureka-challenge.com/). 🧠
 
 - But I'm still on it: This is a work in progress! 🚧
